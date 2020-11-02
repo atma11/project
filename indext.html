@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Stylesheet.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="#aboutmyself" class="search">Seacrh</a>
+            <ul>
+                <li>About Myself</li>
+                <li>Experience</li>
+                <li>Achievement</li>
+            </ul>
+        </div>
+    </header>
+    <div class="top-container">
+        <div class="top-wrapper">
+            <div class="container">
+                <h2>Hi, I'm Siska Atmawan Oktavia</h2>
+                <h3>Welcome to my website</h3>
+                <p>Let's to know Me!</p>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="contents-item">
+                <img src="Atmawan1.JPG">
+                <div class="heading" id="aboutmyself">
+                    <h2>About Myself</h2>
+                    <p>Hello Guys! My name is Siska Atmawan Oktavia, can call me Siska. I'm a student Master at
+                        Universiti Teknikal Malaysia Melaka (UTeM), Faculty FTMK focusing on Multimedia Computing.
+                        Now I'm the last semester, daily activities are finishing the thesis and learning coding
+                        MATLAB for an application used in the thesis. I'm a bachelor's degree focusing on
+                        Information technology. I was an active student in the organization such as BEM, IMM, LDK,
+                        and Research Institutions in Sumbawa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lessons">
+        <div class="lesson-icon">
+            <img scr="https://prog-8.com/images/html/advanced/html.png">
+            <p>Achievement</p>
+            <p>In my bachelor degree in semester 4, I got a scholarship from campus for outstanding
+                students and a scholarship from Newmont or now it is called AMMAN MINERAL. In
+                organization I am active as a committee member in national seminars and currently I am
+                getting a West Nusa Tenggara S2 scholarship in Malaysia.</p>
+        </div>
+        <div class="lessons">
+            <div class="lesson-icon">
+                <img src="phone.png">
+                <p>Working Experience</p>
+                <p>in year 2016 I'm working at SMPN 1 Poto Tano until 2019 and I have business selling
+                    honey.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-form">
+        <h4 class="section-title">Contact me</h4>
+        <p>Email*</p>
+        <input>
+        <p>Message*</p>
+        <textarea></textarea>
+        <p>*Required must be filled</p>
+        <input class="contact-submit" type="submit" value="send">
+    </div>
+    <div class="footer">
+        <div class="footer-logo">Media Sosial</div>
+        <div class="btn-wrapper">
+            <a href="https://www.facebook.com/siska.a.oktavia.165" class="btnsignup"><span
+                    class="fa fa-facebook"></span>Facebook</a>
+            <a href="https://www.instagram.com/siskaatmawan?r=nametag" class="btnsignup"><span
+                    class="fa fa-instagram"></span>Instagram</a>
+            <a href="#" class="btntwitter"><span class="fa fa-twitter"></span>Twitter</a>
+            <a href="https://www.youtube.com/channel/UCk07pIGJQWgWxtUM79sSS1g" class="btnyoutube"><span
+                    class="fa fa-youtube"></span>YouTube</a>
+        </div>
+    </div>
+</body>
+<script>
+    var count = 0;
+    document.getElementsById("change-button1").onclick = function changeDark() {
+        document.getElementById("change-css").href = "dark-mode.css";
+    };
+    document.getElementById("change-button2").onclick = function changeLight() {
+        document.getElementById("change-css").href = "light-mode.css";
+    };
+
+    const chk = document.getElementById("chk");
+</script>
+</html>
